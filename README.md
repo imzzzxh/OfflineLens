@@ -27,10 +27,28 @@
 
 ---
 
-## 🛠️ 技术架构
+## 🛠 技术架构
 
 - **语言**：Kotlin
 - **相机底层**：Android Jetpack `CameraX` (Preview + ImageAnalysis)
 - **解码引擎**：Google ML Kit (`barcode-scanning` 离线套件)
 - **CI / CD**：GitHub Actions 全自动化云端编译与构建
 - **最低兼容**：Android 5.0 (API 21) 及以上
+
+---
+
+## 👤 作者与致谢
+
+- **原创开发者**：[@imzzzxh](https://github.com/imzzzxh)
+- **设计签名**：`OfflineLens · Designed by imzzzxh`
+- **技术支持与致谢**：
+  - [Google ML Kit](https://developers.google.com/ml-kit)（离线扫码引擎）
+  - [Android Jetpack CameraX](https://developer.android.com/training/camerax)（相机控制）
+  - [Kotlin](https://kotlinlang.org/)（核心开发语言）
+  - [GitHub Actions](https://github.com/features/actions)（自动化云端构建）
+
+---
+
+## 📄 开源许可
+
+本项目遵循 [MIT License](LICENSE) 开源协议。
